@@ -24,48 +24,44 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Имя"
+        android:hint="Имя"
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editTextNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Возраст"
-        android:textSize="20sp" />
+        android:inputType="number"
+        android:hint="Возраст"
+        android:layout_marginTop="10dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editTextPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Номер телефона"
-        android:textSize="20sp" />
+        android:inputType="phone"
+        android:hint="Телефон"
+        android:layout_marginTop="10dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Пароль"
-        android:textSize="20sp" />
+        android:inputType="textPassword"
+        android:hint="Пароль"
+        android:layout_marginTop="10dp"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Электронная почта"
-        android:textSize="20sp" />
+        android:inputType="textEmailAddress"
+        android:hint="Электронная почта"
+        android:layout_marginTop="10dp"/>
 
     <CalendarView
         android:id="@+id/calendarView"
